@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# FAISS index and artifacts
+/data/
+/index/
+*.faiss
+*.npy
+*.npz
+*.pkl
+*.jsonl
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
