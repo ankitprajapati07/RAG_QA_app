@@ -87,6 +87,12 @@ Invoke-RestMethod -Uri http://127.0.0.1:8000/ask -Method Post -Body $body -Conte
 3. **Generation**: LLM creates a dynamic answer based on retrieved context
 4. **Response**: Returns closest match ID, question, and generated answer
 
+## Results
+
+Screenshots of the API in action are included in the repository showing:
+- Successful API responses with medical questions
+- Example queries and generated answers
+
 ## Notes
 
 - The FAISS index is pre-built and included in the repo
